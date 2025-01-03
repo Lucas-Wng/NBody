@@ -1,0 +1,15 @@
+# ninja log v6
+2	60	1735931709100201796	build.ninja	4614f996d8c5ef63
+5	69	1735931632498705783	CMakeFiles/NBody.dir/src/glad.c.o	fa71b225a0971cc4
+6	338	1735931632499237783	CMakeFiles/NBody.dir/src/main.cpp.o	9f721f9bf2a573a8
+359	388	1735931171229474009	NBody	79c99a89a1f17b60
+2	55	1735931709100201796	build.ninja	4614f996d8c5ef63
+15	93	1735931709122112286	CMakeFiles/NBody.dir/include/imgui/backends/imgui_impl_opengl3.cpp.o	d0f1e4d4ab34474
+14	98	1735931709120847325	CMakeFiles/NBody.dir/src/glad.c.o	fa71b225a0971cc4
+15	227	1735931709121804535	CMakeFiles/NBody.dir/include/imgui/imgui_tables.cpp.o	79a2db448f62c7a1
+14	291	1735931709121195868	CMakeFiles/NBody.dir/include/imgui/imgui_draw.cpp.o	74165f109ad973fc
+15	362	1735931709121949744	CMakeFiles/NBody.dir/include/imgui/backends/imgui_impl_glfw.cpp.o	fd3d1c724c1dbcff
+15	433	1735931709121648577	CMakeFiles/NBody.dir/include/imgui/imgui_widgets.cpp.o	b578d5614585f31b
+16	447	1735931709122400286	CMakeFiles/NBody.dir/src/main.cpp.o	9f721f9bf2a573a8
+14	510	1735931709121066742	CMakeFiles/NBody.dir/include/imgui/imgui.cpp.o	cb8322d541fe39ad
+510	605	1735931709616993655	NBody	31e79175fc8c60fc

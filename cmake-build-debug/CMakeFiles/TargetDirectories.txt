@@ -1,0 +1,3 @@
+/Users/lucaswang/CLionProjects/NBody/cmake-build-debug/CMakeFiles/NBody.dir
+/Users/lucaswang/CLionProjects/NBody/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/lucaswang/CLionProjects/NBody/cmake-build-debug/CMakeFiles/rebuild_cache.dir
