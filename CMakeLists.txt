@@ -14,7 +14,14 @@ add_executable(NBody
         include/imgui/imgui_tables.cpp
         include/imgui/backends/imgui_impl_glfw.cpp
         include/imgui/backends/imgui_impl_opengl3.cpp
-        src/main.cpp)
+        src/main.cpp
+        src/Particle.cpp
+        src/Particle.h
+        src/Simulation.cpp
+        src/Simulation.h
+        src/Renderer.cpp
+        src/Renderer.h
+        src/shader.h)
 
 target_include_directories(NBody PRIVATE ${CMAKE_SOURCE_DIR}/include)
 target_include_directories(NBody PRIVATE ${CMAKE_SOURCE_DIR}/include/imgui)

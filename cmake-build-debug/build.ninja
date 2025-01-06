@@ -105,6 +105,27 @@ build CMakeFiles/NBody.dir/src/main.cpp.o: CXX_COMPILER__NBody_unscanned_Debug /
   OBJECT_DIR = CMakeFiles/NBody.dir
   OBJECT_FILE_DIR = CMakeFiles/NBody.dir/src
 
+build CMakeFiles/NBody.dir/src/Particle.cpp.o: CXX_COMPILER__NBody_unscanned_Debug /Users/lucaswang/CLionProjects/NBody/src/Particle.cpp || cmake_object_order_depends_target_NBody
+  DEP_FILE = CMakeFiles/NBody.dir/src/Particle.cpp.o.d
+  FLAGS = -g -std=gnu++2b -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/lucaswang/CLionProjects/NBody/include -I/Users/lucaswang/CLionProjects/NBody/include/imgui -I/Users/lucaswang/CLionProjects/NBody/include/imgui/backends -iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/NBody.dir
+  OBJECT_FILE_DIR = CMakeFiles/NBody.dir/src
+
+build CMakeFiles/NBody.dir/src/Simulation.cpp.o: CXX_COMPILER__NBody_unscanned_Debug /Users/lucaswang/CLionProjects/NBody/src/Simulation.cpp || cmake_object_order_depends_target_NBody
+  DEP_FILE = CMakeFiles/NBody.dir/src/Simulation.cpp.o.d
+  FLAGS = -g -std=gnu++2b -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/lucaswang/CLionProjects/NBody/include -I/Users/lucaswang/CLionProjects/NBody/include/imgui -I/Users/lucaswang/CLionProjects/NBody/include/imgui/backends -iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/NBody.dir
+  OBJECT_FILE_DIR = CMakeFiles/NBody.dir/src
+
+build CMakeFiles/NBody.dir/src/Renderer.cpp.o: CXX_COMPILER__NBody_unscanned_Debug /Users/lucaswang/CLionProjects/NBody/src/Renderer.cpp || cmake_object_order_depends_target_NBody
+  DEP_FILE = CMakeFiles/NBody.dir/src/Renderer.cpp.o.d
+  FLAGS = -g -std=gnu++2b -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/lucaswang/CLionProjects/NBody/include -I/Users/lucaswang/CLionProjects/NBody/include/imgui -I/Users/lucaswang/CLionProjects/NBody/include/imgui/backends -iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/NBody.dir
+  OBJECT_FILE_DIR = CMakeFiles/NBody.dir/src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target NBody
@@ -113,7 +134,7 @@ build CMakeFiles/NBody.dir/src/main.cpp.o: CXX_COMPILER__NBody_unscanned_Debug /
 #############################################
 # Link the executable NBody
 
-build NBody: CXX_EXECUTABLE_LINKER__NBody_Debug CMakeFiles/NBody.dir/src/glad.c.o CMakeFiles/NBody.dir/include/imgui/imgui.cpp.o CMakeFiles/NBody.dir/include/imgui/imgui_draw.cpp.o CMakeFiles/NBody.dir/include/imgui/imgui_widgets.cpp.o CMakeFiles/NBody.dir/include/imgui/imgui_tables.cpp.o CMakeFiles/NBody.dir/include/imgui/backends/imgui_impl_glfw.cpp.o CMakeFiles/NBody.dir/include/imgui/backends/imgui_impl_opengl3.cpp.o CMakeFiles/NBody.dir/src/main.cpp.o | /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks/OpenGL.framework /opt/homebrew/lib/libglfw.3.4.dylib
+build NBody: CXX_EXECUTABLE_LINKER__NBody_Debug CMakeFiles/NBody.dir/src/glad.c.o CMakeFiles/NBody.dir/include/imgui/imgui.cpp.o CMakeFiles/NBody.dir/include/imgui/imgui_draw.cpp.o CMakeFiles/NBody.dir/include/imgui/imgui_widgets.cpp.o CMakeFiles/NBody.dir/include/imgui/imgui_tables.cpp.o CMakeFiles/NBody.dir/include/imgui/backends/imgui_impl_glfw.cpp.o CMakeFiles/NBody.dir/include/imgui/backends/imgui_impl_opengl3.cpp.o CMakeFiles/NBody.dir/src/main.cpp.o CMakeFiles/NBody.dir/src/Particle.cpp.o CMakeFiles/NBody.dir/src/Simulation.cpp.o CMakeFiles/NBody.dir/src/Renderer.cpp.o | /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks/OpenGL.framework /opt/homebrew/lib/libglfw.3.4.dylib
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk
   LINK_LIBRARIES = -Wl,-rpath,/opt/homebrew/lib  -framework OpenGL  /opt/homebrew/lib/libglfw.3.4.dylib
   OBJECT_DIR = CMakeFiles/NBody.dir
